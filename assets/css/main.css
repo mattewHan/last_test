@@ -1434,7 +1434,7 @@ top: -1px;
 ========================================*/
 .header {
   width: 100%;
-  background: #fff8e1ac;
+  background: #fff8e1;
   position: relative;
   width: 100%;
   /* Start Topbar */
@@ -2789,6 +2789,7 @@ top: 2px;
   border-radius: 0px 25px 25px 0px;
   width:100%;
 }
+
 .navbar-nav .nav-item.left:hover a {
   color: #0A2533;
   background-color: #FFCA28;
@@ -3093,6 +3094,71 @@ top: 2px;
 @media (max-width: 767px) {
   .hero-area .custom-padding-right {
     padding-right: calc(var(--bs-gutter-x)/ 2);
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-nav .nav-item.right a,.navbar-nav .nav-item.left a {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 0  0  0  0;
+    background-color: transparent;
+    color: #081828;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar-nav .nav-item.right a:hover,.navbar-nav .nav-item.left a:hover{
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0  0  0  0;
+    color: #ffa000;
+  }
+
+}
+@media (max-width:  767px){
+  .navbar-nav .nav-item.right a,.navbar-nav .nav-item.left a {
+    width: 100%;
+    border-radius: 0  0  0  0;
+    font-size: 14px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: #081828;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar-nav .nav-item.right a:hover,.navbar-nav .nav-item.left a:hover{
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid transparent;
+    color: #ffa000;
+    border-radius: 0  0  0  0;
   }
 }
 
