@@ -7,37 +7,19 @@
     <title>Walking Order</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="assets/images/logo/logo_only.png" rel="icon"/>
+    <link href="assets/images/logo/logo_only.png" rel="icon" />
 
 
     <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap5.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-    <!-- 합쳐지고 최소화된 최신 CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-    <!-- 부가적인 테마 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css    ">
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
-    
 
     <!-- ========================= JS here ========================= -->
     <script src="assets/js/jquery-3.6.0.js"></script>
-    <script src="assets/js/main_1.js"></script>
+
     <script type="text/javascript">
         jQuery(document).ready(function () {
             $('#headers').load("header.html");
@@ -49,14 +31,15 @@
     <style>
         .btn_login {
             height: 80px;
-            line-height: 80px;  
-            width: 80px;  
+            line-height: 80px;
+            width: 80px;
             font-size: 2em;
             font-weight: bold;
             border-radius: 50%;
             text-align: center;
             border: none;
         }
+
         .div_center {
             text-align: center;
             width: 100%;
@@ -66,43 +49,47 @@
             font-size: 50px;
             display: inline-block;
             vertical-align: middle;
-        } 
+        }
+
         .img_button_G {
-            background: url( "assets/images/logo/google_Logo.png" ) no-repeat;
+            background: url("assets/images/logo/google_Logo.png") no-repeat;
             border: none;
             width: 80px;
             height: 80px;
             cursor: pointer;
-            line-height: 80px;  
-            width: 80px;  
+            line-height: 80px;
+            width: 80px;
             font-size: 2em;
             font-weight: bold;
             border-radius: 50%;
         }
+
         .img_button_K {
-            background: url( "assets/images/logo/kakao_Logo.jpg" ) no-repeat;
+            background: url("assets/images/logo/kakao_Logo.jpg") no-repeat;
             border: none;
             width: 80px;
             height: 80px;
             cursor: pointer;
-            line-height: 80px;  
-            width: 80px;  
+            line-height: 80px;
+            width: 80px;
             font-size: 2em;
             font-weight: bold;
             border-radius: 50%;
-        }     
+        }
+
         .img_button_N {
-            background: url( "assets/images/logo/naver_Logo.jpg" ) no-repeat;
+            background: url("assets/images/logo/naver_Logo.jpg") no-repeat;
             border: none;
             width: 80px;
             height: 80px;
             cursor: pointer;
-            line-height: 80px;  
-            width: 80px;  
+            line-height: 80px;
+            width: 80px;
             font-size: 2em;
             font-weight: bold;
             border-radius: 50%;
-        }   
+        }
+
         .p_mb {
             margin-bottom: 50px;
         }
@@ -113,43 +100,159 @@
     <!-- header import -->
     <div id="headers"></div>
 
-    <div class="m-5 p-5 div_center">
-        <p class="fw-bold text-center fs-1 p_mb">로그인</p>
+    <div class="container">
+        <div style="text-align: center; max-width: 400px; margin: auto;">
+            <h3 class="text-center mt-60 mb-60" style="color:#6f6f6f">로그인</h3>
 
-        <form class="col-md-offset-4">
-            <div class="form-group row">
-                <lable class="col-sm-2 col-form-label fw-bold fs-3">아이디</lable>
-                <div class="col-sm-4">
-                    <input type="text" class="form-control round-form form-control-lg" placeholder="아이디">
+            <form>
+                <div class="form-group row" >
+                    <lable class="col-lg-4 col-sm-4 col-xs-4 col-form-label " 
+                    style="text-align: left;font-size: 16px; font-weight: 700;">아이디</lable>
+                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                        <input type="text" class="form-control round-form" style="max-width: 300px;" placeholder="아이디">
+                    </div>
                 </div>
-            </div>
-        
-            <div class="form-group row">
-                <lable class="col-sm-2 col-form-label fw-bold fs-3">비밀번호</lable>
-                <div class="col-sm-4">
-                    <input type="text" class="form-control round-form form-control-lg" placeholder="비밀번호">
+                <div class="row">
+                    <hr class="col-sm-12">
                 </div>
+
+                <div class="form-group row" >
+                    <lable class="col-lg-4 col-sm-4 col-xs-4 col-form-label " 
+                    style="text-align: left;font-size: 16px; font-weight: 700;">비밀번호</lable>
+                    <div class="col-lg-7 col-sm-7 col-xs-7">
+                        <input type="text" class="form-control round-form" style="max-width: 300px;" placeholder="비밀번호">
+                    </div>
+                </div>
+                <div class="row">
+                    <lable class="col-lg-4 col-md-4 col-sm-4 ">&nbsp;</lable>
+                    <input type="checkbox" style="margin-top: 4px;display: inline-block;"/><lable class="col-lg-6 col-md-6 col-sm-6 " style="text-align: left;">로그인 유지하기</lable>
+                </div>
+                <div class="row mt-30 mb-40">
+                    <lable class="col-lg-2 col-md-2 col-sm-2 ">&nbsp;</lable>
+                    <button type="submit" class="col-lg-8 col-md-8 col-sm-8 btn btn-outline-warning"><i class="fa fa-lock"></i> 로그인 &nbsp;</button>
+                </div>
+                
+            </form>
+            <h4 class="text-center mt-30 mb-20" style="color:#6f6f6f">소셜 로그인</h4>
+            <div class="row" style="max-width: 400px;">
+                <button class="kaka_login" type="button"></button>
+                <button class="naver_login" type="button"></button>
+                <button class="google_login" type="button"></button>
             </div>
 
-            <div class="form-group col-md-offset-1">
-                <button type="submit" class="col-sm-5 btn btn-outline-warning btn-lg ">로그인</button>
+            <div class="fs-4 mt-30">
+                <a href="w_join.html">회원가입</a>
+                <a class="p-5">/</a>
+                <a href="#">아이디&비밀번호 찾기</a>
             </div>
-        </form>
-        <div class="col-md-offset-4 mt-5 mr-5 ml-5 pt-5 pr-5 pl-5 ">
-            <p class="fw-bold text-center fs-3">소셜 로그인</p>
-            <button type="button" class="img_button_G mr-3 ml-3 mt-3" onclick="location.href='w_move_test.html'"></button>
-            <button type="button" class="img_button_K mr-3 ml-3 mt-3"></img></button>
-            <button type="button" class="img_button_N mr-3 ml-3 mt-3"></button>
 
         </div>
 
-        <div class="fs-4">
-            <a href="w_join.html">회원가입</a>
-            <a class="p-5">/</a>
-            <a href="#">아이디&비밀번호 찾기</a>
+
+
+        <div class="col-12" style="text-align: center;">
+            <h3 class="text-center mt-60 mb-60" style="color:#6f6f6f">로그인</h3>
+
+            <form>
+                <div class="form-group row" >
+                    <lable class="col-lg-3 ">&nbsp;</lable>
+                    <lable class="col-lg-2 col-sm-4 col-xs-3 col-form-label " 
+                    style="text-align: right;font-size: 16px; font-weight: 700;">아이디</lable>
+                    <div class="col-lg-4 col-sm-7 col-xs-7">
+                        <input type="text" class="form-control round-form" style="max-width: 260px;" placeholder="업체명">
+                    </div>
+                </div>
+                <div class="row">
+                    <lable class="col-lg-3 col-sm-2">&nbsp;</lable>
+                    <hr class="col-sm-7">
+                </div>
+
+                <div class="form-group row" >
+                    <lable class="col-lg-3 ">&nbsp;</lable>
+                    <lable class="col-lg-2 col-sm-4" style="text-align: right; font-size: 16px; font-weight: 700;">비밀번호</lable>
+                    <div class="col-lg-4 col-sm-7">
+                        <input type="text" class="form-control round-form" style="max-width: 260px;" placeholder="담당자명">
+                    </div>
+                </div>
+                <div class="row">
+                    <lable class="col-lg-5 col-md-5 col-sm-4 ">&nbsp;</lable>
+                    <input type="checkbox" style="margin-top: 4px;display: inline-block;"/><lable class="col-lg-2 col-md-5 col-sm-6 " style="text-align: left;">로그인 유지하기</lable>
+                </div>
+                <div class="row mt-30 mb-40">
+                    <lable class="col-lg-4 col-md-4 col-sm-2 ">&nbsp;</lable>
+                    <button type="submit" class="col-lg-4 col-md-4 col-sm-8 btn btn-outline-warning"><i class="fa fa-lock"></i> 로그인 &nbsp;</button>
+                </div>
+                
+            </form>
+            <h4 class="text-center mt-30 mb-20" style="color:#6f6f6f">소셜 로그인</h4>
+            <div class="row" style="max-width: 400px;margin: auto;">
+                <button class="kaka_login" type="button"></button>
+                <button class="naver_login" type="button"></button>
+                <button class="google_login" type="button"></button>
+            </div>
+
+            <div class="fs-4 mt-30">
+                <a href="w_join.html">회원가입</a>
+                <a class="p-5">/</a>
+                <a href="#">아이디&비밀번호 찾기</a>
+            </div>
+
         </div>
     </div>
 
+    <div class="container" style="margin: auto; max-width: 400px;">
+        <h3 class="text-center mt-60 mb-60" style="color:#6f6f6f">로그인</h3>
+        <form>
+            <input type="text" class="form-control" placeholder="아이디" autofocus><br>
+            <input type="password" class="form-control" placeholder="비밀번호">
+            <label class="checkbox" style="margin-top: 5px;">
+                <input type="checkbox" value="remember-me" style="font-size: 12px; margin-top: 2px; margin-left: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아이디/비밀번호 저장<br><br>
+            </label>
+            <button type="submit" class="btn btn-outline-warning" style="width: 100%;"><i class="fa fa-lock"></i> 로그인 &nbsp;</button>
+            <h4 class="text-center mt-40 mb-30" style="color:#6f6f6f">소셜 로그인</h4>
+            <div class="row" style="max-width: 400px;margin: auto;">
+                <button class="kaka_login" type="button"></button>
+                <button class="naver_login" type="button"></button>
+                <button class="google_login" type="button"></button>
+            </div>
+
+            <div class="row mt-40" style="margin-left: 80px;">
+                
+                <a href="w_join.html">회원가입</a>
+                <a class="p-5">&nbsp;&nbsp;/&nbsp;&nbsp;</a>
+                <a href="#">아이디&비밀번호 찾기</a>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container mb-40" >
+        <form class="form-login" action="index.html">
+          <h2 class="form-login-heading"><img src="assets/images/logo/logo_only.png" style="width:28px">&nbsp; walking order admin</h2>
+          <div class="login-wrap">
+            <input type="text" class="form-control" placeholder="아이디" style="font-size: 14px;">
+            <br>
+            <input type="password" class="form-control" placeholder="비밀번호" style="font-size: 14px;">
+            <label class="checkbox">
+              <input type="checkbox" value="remember-me" style="font-size: 12px; margin-top: 2px; margin-left: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아이디/비밀번호 저장
+              <span class="pull-right">
+              <a style="font-size: 12px; float: right;">비밀번호 찾기</a>
+              </span>
+              </label>
+            <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> 로그인</button>
+            <hr>
+            <div class="login-social-link centered">
+              <p>소셜 로그인</p>
+              
+              <button class="btn btn-naver" type="submit"><b>N</b> Naver</button>
+              <button class="btn btn-google" type="submit"><i class="fa fa-google"></i> Google</button>
+              <button class="btn btn-facebook" type="submit"><i class="fa fa-facebook"></i> Facebook</button>
+              </div>
+            
+          </div>
+          
+        </form>
+      </div>
 
 
     <!-- footer import -->

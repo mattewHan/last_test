@@ -5258,3 +5258,69 @@ top: 2px;
   }
 }
 
+/*LOGIN CONFIGURATION PAGE*/
+.form-login {
+	max-width: 400px;
+	margin: 150px auto 0;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.form-login h2.form-login-heading {
+	margin: 0;
+	padding: 25px 20px;
+	text-align: center;
+	background: #ffd58d ;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.login-wrap {
+	padding: 20px;
+}
+.login-wrap .registration {
+	text-align: center;
+}
+.login-social-link {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.kaka_login {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url("../images/social/kakao.png");
+  border: none;
+  box-shadow: 0 1px 1px #8a8a8a;
+}
+
+.naver_login {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url("../images/social/naver.png");
+  border: none;
+  box-shadow: 0 1px 1px #8a8a8a;
+}
+
+.google_login {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url("../images/social/google.png");
+  border: none;
+  box-shadow: 0 1px 1px #8a8a8a;
+}
+
+.google_login:hover, .naver_login:hover, .kaka_login:hover{
+  opacity: .8;
+}
