@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="no-js" lang="kor">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Walking Order</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap5.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css    ">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <script>
+        $(document).ready(function () {
+            var $test = $('#ming');
+            $(window).scroll(function () {
+                if ($(this).scrollTop > 10) {
+                    $test.addClass('scrolled');
+                }
+            });
+        });
+    </script>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/main_1.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $('#headers').load("header.html");
+            $('#footers').load("footer.html");
+        });
+         //========= Hero Slider
+    </script>
+
+    <style>
+        .btn_login {
+            height: 80px;
+            line-height: 80px;  
+            width: 80px;  
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 50%;
+            text-align: center;
+            border: none;
+        }
+        .div_center {
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            font-size: 50px;
+            display: inline-block;
+            vertical-align: middle;
+        } 
+        .img_button_G {
+            background: url( "assets/images/logo/google_Logo.png" ) no-repeat;
+            border: none;
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            line-height: 80px;  
+            width: 80px;  
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 50%;
+        }
+        .img_button_K {
+            background: url( "assets/images/logo/kakao_Logo.jpg" ) no-repeat;
+            border: none;
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            line-height: 80px;  
+            width: 80px;  
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 50%;
+        }     
+        .img_button_N {
+            background: url( "assets/images/logo/naver_Logo.jpg" ) no-repeat;
+            border: none;
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            line-height: 80px;  
+            width: 80px;  
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 50%;
+        }   
+        .p_mb {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header import -->
+    <div id="headers"></div>
+
+    <div class="m-5 p-5 div_center">
+        <p class="fw-bold text-center fs-1 p_mb">로그인</p>
+
+        <form class="col-md-offset-4">
+            <div class="form-group row">
+                <lable class="col-sm-2 col-form-label fw-bold fs-3">아이디</lable>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control round-form form-control-lg" placeholder="아이디">
+                </div>
+            </div>
+        
+            <div class="form-group row">
+                <lable class="col-sm-2 col-form-label fw-bold fs-3">비밀번호</lable>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control round-form form-control-lg" placeholder="비밀번호">
+                </div>
+            </div>
+
+            <div class="form-group col-md-offset-1">
+                <button type="submit" class="col-sm-5 btn btn-outline-warning btn-lg ">로그인</button>
+            </div>
+        </form>
+        <div class="col-md-offset-4 mt-5 mr-5 ml-5 pt-5 pr-5 pl-5 ">
+            <p class="fw-bold text-center fs-3">소셜 로그인</p>
+            <button type="button" class="img_button_G mr-3 ml-3 mt-3" onclick="location.href='w_move_test.html'"></button>
+            <button type="button" class="img_button_K mr-3 ml-3 mt-3"></img></button>
+            <button type="button" class="img_button_N mr-3 ml-3 mt-3"></button>
+
+        </div>
+
+        <div class="fs-4">
+            <a href="w_join.html">회원가입</a>
+            <a class="p-5">/</a>
+            <a href="#">아이디&비밀번호 찾기</a>
+        </div>
+    </div>
+
+
+
+    <!-- footer import -->
+    <div id="footers"></div>
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Js Plugins -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main_1.js"></script>
+</body>
+
+</html>

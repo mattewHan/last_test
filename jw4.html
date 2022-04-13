@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="no-js" lang="kor">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Walking Order</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap5.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <script>
+        $(document).ready(function () {
+            var $test = $('#ming');
+            $(window).scroll(function () {
+                if ($(this).scrollTop > 10) {
+                    $test.addClass('scrolled');
+                }
+            });
+        });
+    </script>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/main_1.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $('#headers').load("header.html");
+            $('#footers').load("footer.html");
+        });
+         //========= Hero Slider
+    </script>
+    <!-- 스크롤바 css코드 삽입 -->
+    <style>
+        .container-md {
+            width: 250px;
+            height: 1000px;
+            overflow: auto;
+        }
+
+        .container-md::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .container-md::-webkit-scrollbar-thumb {
+            background-color: #F0CB85;
+            border-radius: 10px;
+            background-clip: padding-box;
+            border: 2px solid transparent;
+        }
+
+        .container-md::-webkit-scrollbar-track {
+            background-color: #AFFFEE;
+            border-radius: 10px;
+            box-shadow: inset 0px 0px 5px white;
+        }
+    </style><!-- 스크롤바 css코드 종료 -->
+
+</head>
+
+<body>
+    <!-- header import -->
+    <div id="headers"></div>
+
+    <!-- Shoping Cart Section Begin -->
+    <section class="shoping-cart spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="shoping__cart__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="shoping__product">장바구니</th>
+                                    <th>가격</th>
+                                    <th>수량</th>
+                                    <th>합계</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img src="assets/images/jaewoo/latte.jpg" alt="">
+                                        <h5>아이스아메리카노</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">
+                                        2,000
+                                    </td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">
+                                        2,000
+                                    </td>
+                                    <td class="shoping__cart__item__close">
+                                        <span class="icon_close"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img src="assets/images/jaewoo/latte.jpg" alt="">
+                                        <h5>라떼는말야</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">
+                                        2,000
+                                    </td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">
+                                        2,000
+                                    </td>
+                                    <td class="shoping__cart__item__close">
+                                        <span class="icon_close"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img src="assets/images/jaewoo/latte.jpg" alt="">
+                                        <h5>이렇게하면바나나</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">
+                                        2,000
+                                    </td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">
+                                        2,000
+                                    </td>
+                                    <td class="shoping__cart__item__close">
+                                        <span class="icon_close"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-lg-6">
+                    <div class="shoping__continue">
+                        <div class="shoping__discount">
+                            <h5>쿠폰</h5>
+                            <form action="#">
+                                <input type="text" placeholder="쿠폰번호를 입력해주세요.">
+                                <button type="submit" class="site-btn">쿠폰검색</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="shoping__checkout">
+                        <h5>합계금액</h5>
+                        <ul>
+                            <li>주문하신금액 <span>6,000</span></li>
+                            <li>합계금액 <span>6,000</span></li>
+                        </ul>
+                        <a href="#" class="primary-btn">주문확인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shoping Cart Section End -->
+
+
+
+    <!-- footer import -->
+    <div id="footers"></div>
+    <!-- Js Plugins -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main_1.js"></script>
+</body>
+
+</html>
