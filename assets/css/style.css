@@ -35,7 +35,6 @@ body {
 	height: 100%;
 	font-family: "Cairo", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 h1,
@@ -3465,3 +3464,39 @@ ol {
 		font-size: 24px;
 	}
 }
+
+.option_select_form{
+    display: none;
+	/* background-color: white;
+	right: 0;
+	position:absolute;
+    z-index: 11;
+    border-radius: 4px;
+    margin-top:2px ; width:250px;padding-bottom: 10px;
+    display: inline-block;
+	box-shadow: 0 1px 2px #636363; */
+  }
+
+  .option_select_form.active{
+    background-color: white;
+	right: 50px;
+	position:absolute;
+    z-index: 11;
+    border-radius: 4px;
+    margin-top:2px ; padding-bottom: 10px;
+    display: inline-block;
+	box-shadow: 0 1px 2px #636363;
+	padding:15px;
+  }
+
+  .option_select_form .row{
+	  padding-top:15px;
+  }
+
+  .option_select_form button{
+	margin-left: 15px;
+	padding: 5px 10px;  
+	background-color: #EDBB0E;
+	font-size: 14px;
+	width: 100px;
+  }
