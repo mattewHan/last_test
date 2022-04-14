@@ -7,7 +7,7 @@
     <title>Walking Order</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo_only.svg" />
+    <link href="assets/images/logo/logo_only.png" rel="icon"/>
 
 
     <!-- ========================= CSS here ========================= -->
@@ -18,28 +18,14 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
-    <script>
-        $(document).ready(function () {
-            var $test = $('#ming');
-            $(window).scroll(function () {
-                if ($(this).scrollTop > 10) {
-                    $test.addClass('scrolled');
-                }
-            });
-        });
-    </script>
+    
 </head>
 
 <body>
 
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
     </div>
     <!-- /End Preloader -->
 
@@ -111,7 +97,7 @@
     <!-- End Hero Area -->
 
     <!-- Start Trending Product Area -->
-    <section class="trending-product section" style="margin-top: 12px;">
+    <section class="trending-product-1 section" style="margin-top: 12px;">
         <div class="container">
             <div class="row">
                 <div class="col-12">

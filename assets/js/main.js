@@ -46,14 +46,28 @@ document.addEventListener('DOMContentLoaded', () => {
 	/**
 * Sticky header on scroll
 */
-	const selectHeader = document.querySelector('.header-middle');
-	const selectHeader2 = document.querySelector('.mega-category-menu');
-	const selectHeader3 = document.querySelector('.navbar-nav');
-	if (selectHeader) {
-		document.addEventListener('scroll', () => {
-			window.scrollY > 10 ? selectHeader.classList.add('ming') : selectHeader.classList.remove('ming');
-			window.scrollY > 10 ? selectHeader2.classList.add('ming') : selectHeader2.classList.remove('ming');
-			window.scrollY > 10 ? selectHeader3.classList.add('ming') : selectHeader3.classList.remove('ming');
-		});
-	}
+const selectHeader = document.querySelector('.header-middle');
+const selectHeader2 = document.querySelector('.mega-category-menu');
+const selectHeader3 = document.querySelector('.navbar-nav');
+const selectHeader4 = document.querySelector('.scrolled-header');
+if (selectHeader) {
+	document.addEventListener('scroll', () => {
+		window.scrollY > 10 ? selectHeader.classList.add('ming') : selectHeader.classList.remove('ming');
+		window.scrollY > 10 ? selectHeader2.classList.add('ming') : selectHeader2.classList.remove('ming');
+		window.scrollY > 10 ? selectHeader3.classList.add('ming') : selectHeader3.classList.remove('ming');
+		window.scrollY > 0 ? selectHeader4.classList.add('ming') : selectHeader4.classList.remove('ming');
+	});
+}
 });
+
+$(document).ready(function () {
+	$(".showdetail_btn").click(function () {
+
+		if ($('.option_select_form').hasClass('active') == false) {
+			$(".option_select_form").addClass("active");
+		} else {
+			$(".option_select_form").removeClass("active");
+		}
+	});
+
+}
