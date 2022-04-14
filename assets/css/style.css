@@ -3500,3 +3500,22 @@ ol {
 	font-size: 14px;
 	width: 100px;
   }
+
+  .shoping__cart__item{
+	  padding-left: 40px;
+  }
+  .shoping__cart__item img{
+	  width: 50px;
+  }
+
+  .shoping__cart__item__close{
+	  padding-right: 20px;
+  }
+
+  .shoping__checkout{
+	  margin-right: 20px;
+  }
+
+  .shoping__discount{
+	  margin-left: 20px;
+  }
